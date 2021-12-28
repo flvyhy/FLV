@@ -5,8 +5,8 @@ if (dir.exists(paste(mosaicfilefolder,"/mask/",sep = ""))==0){
   dir.create(paste(mosaicfilefolder,"/mask/",sep = ""))
 }
 #need input
-mosaic1 <- "raster_North"
-mosaic2 <- "raster_South"
+mosaic1 <- "Output1"
+mosaic2 <- "Output2"
 e <- extent(244391.272,584381.536,4496753.107,4836743.371)
 
 for(year in seq(from=0,to=300,by=10)){
