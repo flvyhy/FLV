@@ -1,5 +1,5 @@
 # FLV (Forest Landscape Visualization)
-[Case applications](https://bit.ly/3eN5Qlk)
+[Case applications](https://nenueducn-my.sharepoint.com/personal/yuhy507_nenu_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyuhy507%5Fnenu%5Fedu%5Fcn%2FDocuments%2FFLV%5Fcase%2E7z&parent=%2Fpersonal%2Fyuhy507%5Fnenu%5Fedu%5Fcn%2FDocuments&ga=1)
 ## 1 Platform operation preparation
 This platform integrates several software and programming languages. The software includes **Photoshop**, **Speedtree**, **Houdini Engine** and **Unreal Engine**, and the programming languages include **Python** and **R**. The workflow consists of processing data and 3D visualization. First, we installed the software and configured the compilation environment for these programming languages. Then we show the use of the platform with the output of the LANDIS PRO forest landscape model as an example.
 ## 2 Processing of landscape model output results
@@ -21,9 +21,9 @@ Run the *`Distribution&Abundance.R`* code file, stitch the two parts together an
 # 2 Three-dimensional visualization of forest landscape
 ## 2.1 Data transmission
 We use Houdini Engine for bridging the gap between the output data and the game engine. In Houdini Engine, terrain data, forest data, river data, and road data are integrated together to make a HAD package that is used to build the entire scene in Unreal Engine.<br/>
-<img src="https://github.com/flvyhy/jpg/blob/main/6.png" width=400><br/><img src="https://github.com/flvyhy/jpg/blob/main/7.png" width=500>
+<img src="https://github.com/flvyhy/jpg/blob/main/6.png" width=500><br/><img src="https://github.com/flvyhy/jpg/blob/main/7.png" width=600>
 
 ## 2.2 Scene Generation
-Drag the HAD package <img src="https://github.com/flvyhy/jpg/blob/main/8.png" width=50> into Unreal Engine and the entire scene will be generated automatically.<br/>
+Drag the HAD package <img src="https://github.com/flvyhy/jpg/blob/main/8.png" width=40> into Unreal Engine and the entire scene will be generated automatically.<br/>
 <img src="https://github.com/flvyhy/jpg/blob/main/9.png" width=1000><br/>
-Optimization of scenes in Unreal Engine and the way to navigate can be found in the learning [rescoures](https://www.unrealengine.com/learn) on the official website.
+Optimization of scenes in Unreal Engine and the way to navigate can be found in the [learning rescoures](https://www.unrealengine.com/learn) on the official website.
