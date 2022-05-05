@@ -19,7 +19,7 @@ The forest landscape to be visualized in the forest landscape model simulation m
 
 Run the *`Distribution&Abundance.R`* code file, stitch the two parts together and generate the density distribution and the corresponding quantity table.
  
-# 2 3D visualization of forest landscape
+# 2 Three-dimensional visualization of forest landscape
 ## 2.1 Data transmission
 We use Houdini Engine for bridging the gap between the output data and the game engine. In Houdini Engine, terrain data, forest data, river data, and road data are integrated together to make a HAD package that is used to build the entire scene in Unreal Engine.
   
